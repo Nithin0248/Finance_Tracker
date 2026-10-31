@@ -1,0 +1,13 @@
+spring.application.name=finance_tracker
+
+# Secrets come from environment variables in production (Render/Railway).
+# The value after the colon is only a local-development fallback.
+spring.mongodb.uri=${MONGODB_URI:mongodb+srv://nithin:Itapahc@341@cluster0.xxxxx.mongodb.net/financeTracker?serverSelectionTimeoutMS=5000}
+jwt.secret=${JWT_SECRET:change-this-to-a-long-random-string-of-at-least-32-chars}
+jwt.expiration-ms=86400000
+
+# Comma-separated list of frontend URLs allowed to call this API
+app.cors.allowed-origins=${CORS_ORIGINS:http://localhost:5173}
+
+# Render/Railway tell the app which port to use through PORT
+server.port=${PORT:8080}
