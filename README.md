@@ -2,7 +2,7 @@
 
 A full-stack app to record income and expenses, filter them, and see where your money goes.
 
-**Live demo:**finance-tracker-hacker-74e1.vercel.app· **API:**https://finance-tracker-w71e.onrender.com
+**Live demo:**https://finance-tracker-hacker-74e1.vercel.app· **API:**https://finance-tracker-w71e.onrender.com
 
 ## Screenshots
 _Add 2–3 screenshots here (login, dashboard on desktop, dashboard on mobile)._
