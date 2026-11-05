@@ -11,7 +11,6 @@ A full-stack web app to record income and expenses, filter them, and see where y
 
 **Live demo:** https://finance-tracker-hacker-74e1.vercel.app
 **Backend API:** https://finance-tracker-w71e.onrender.com
-**Walkthrough video:** _add link here_
 
 > The backend runs on a free Render instance that sleeps when idle. The first request after a break can take 30 to 60 seconds.
 
